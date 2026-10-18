@@ -1,0 +1,30 @@
+{
+  "name": "gibwork-terminal",
+  "version": "1.0.0",
+  "description": "Autonomous terminal utility, bounty sentinel, and CLI built on @gibwork/sdk for Solana developers",
+  "main": "bin/gibwork-terminal.js",
+  "bin": {
+    "gibwork-terminal": "./bin/gibwork-terminal.js"
+  },
+  "scripts": {
+    "start": "node ./bin/gibwork-terminal.js",
+    "test": "node ./bin/gibwork-terminal.js list"
+  },
+  "keywords": [
+    "solana",
+    "gibwork",
+    "cli",
+    "bounties",
+    "sdk"
+  ],
+  "author": "kamuthegoat",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@gibwork/sdk": "^0.2.0",
+    "@solana/web3.js": "^1.99.0",
+    "bs58": "^6.0.0",
+    "commander": "^15.0.0",
+    "dotenv": "^18.0.8"
+  }
+}
